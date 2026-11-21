@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.thecheese",
+    "module": "pedro_visual",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "pedro_visual-1.0.0.aar",
+          "url": "pedro_visual-1.0.0.aar",
+          "size": 797843,
+          "sha512": "43276ba8f1675170c522b4b8435cefdcdbd6605fc4cc11f9e4d4b8569ff52ea9796aaa39704ab884d770300a5098a7901b6d752cb7973b121003190ea6c7d1d0",
+          "sha256": "a0daadae14279e579c32e06c5a446ccad77adf8fed26dc8a22c7d48602a144fb",
+          "sha1": "55b56f860e4fa452c77334ac0a1c1e7c7e7912a7",
+          "md5": "c1330f8e248940e10a44d0db2bb27499"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pedro_visual-1.0.0.aar",
+          "url": "pedro_visual-1.0.0.aar",
+          "size": 797843,
+          "sha512": "43276ba8f1675170c522b4b8435cefdcdbd6605fc4cc11f9e4d4b8569ff52ea9796aaa39704ab884d770300a5098a7901b6d752cb7973b121003190ea6c7d1d0",
+          "sha256": "a0daadae14279e579c32e06c5a446ccad77adf8fed26dc8a22c7d48602a144fb",
+          "sha1": "55b56f860e4fa452c77334ac0a1c1e7c7e7912a7",
+          "md5": "c1330f8e248940e10a44d0db2bb27499"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pedro_visual-1.0.0-sources.jar",
+          "url": "pedro_visual-1.0.0-sources.jar",
+          "size": 5603,
+          "sha512": "45e39c507b1b85c69c5b70a03842e7d1b4b416e391e4ad8ac47fc768820980a10c0b3c99997158a5f971572fef134314022cbf34e59407b5a3f18b28be29f817",
+          "sha256": "737b164c2f96e0f8cd625140f7de9cd17c5bea5459a979f3fdff90cf51de6e4e",
+          "sha1": "900ccb73892cb2748415647bb1c803b8b23b248d",
+          "md5": "19d6ba41fc33a65f6d8a36908b432cc9"
+        }
+      ]
+    }
+  ]
+}
